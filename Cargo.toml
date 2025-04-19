@@ -1,0 +1,14 @@
+[package]
+name = "mojxml-tools"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+zip = "0.6"
+regex = "1"
+rayon = "1"
+anyhow = "1"
+indicatif = { version = "0.17", features = ["rayon"] }
+encoding_rs = "0.8"
+encoding_rs_io = "0.1" # For convenience with Read trait
